@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Yuuki Wesp</Authors>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Ancient.Runtime" Version="0.60.345.605" />
+    <PackageReference Include="Ancient.Runtime.Hardware" Version="0.60.345.60" />
+    <PackageReference Include="UnitsNet" Version="4.59.0" />
+  </ItemGroup>
+</Project>
