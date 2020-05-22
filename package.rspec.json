@@ -1,6 +1,6 @@
 {
     "id": "frequency",
-    "version": "1.0.0",
+    "version": "1.0.4",
     "owner": "Yuuki Wesp",
     "files":[
         "#/src/bin/Debug/netstandard2.1/publish/frequency.dll",
