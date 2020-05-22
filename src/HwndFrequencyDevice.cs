@@ -12,7 +12,7 @@ using UnitsNet.Units;
 public class HwndFrequencyDevice : Device
 {
     private readonly CancellationTokenSource tokenSource = new CancellationTokenSource();
-    public HwndFrequencyDevice() : base(0x9, "<frequency-hwnd>") { }
+    public HwndFrequencyDevice() : base(0x999, "<frequency-hwnd>") { }
 
     public override void warmUp()
     {
